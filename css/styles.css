@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+        /* start navbar */
+    
+        .navbar {
+            margin-top: 0;
+            background-color: blue;
+            font-size: 15px;
+            font-family: 'Changa',
+            sans-serif;
+        }
+        .navbar li:hover{
+            color: rgb(188, 202, 57);
+            background-color: rgb(8, 7, 7);
+            height: 66px;
+        }
+        .navbar-default .navbar-nav>.active>a,
+        .navbar-default .navbar-nav>.active>a:focus,
+        .navbar-default .navbar-nav>.active>a:hover {
+            color: rgb(187, 207, 4);
+            background-color: rgb(8, 7, 7);
+            height: 66px;
+        }
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img {
+height: 80px;
+width: 200px;
+}
+        /* end navbar */
+
+/* start loeg */
+.login-sec {
+    background: url(../images/s1.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-sec .box-form {
+    width: 500px;
+padding: 23px;}
+.login-sec .box-form form {
+    background-color: rgb(216, 230, 225);
+padding: 60px 30px;
+border-radius: 8px;
+box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+
+}
+.text-center p{
+    font-size: 30px;
+    color: peru;
+}
+.btn-danger{
+    background-color: rgb(231, 170, 170);
+    border: rgb(212, 174, 130);
+}
+.box1{
+    margin-top: 10px;
+}
+.img img{
+    width: 500px;
+    height: 100px;
+border-radius: 8px;
+
+}
+/* end loeg */
+
+.section3 img{
+    border-radius: 30px;
+}
+  /* < !-- start Services --> */
+  .Services{
+      padding: 20px;
+  }
+  .Services .serv{
+      display: flex;
+      align-items: center;
+      margin-bottom: 50p;
+  }
+  .Services .serv svg{
+      font-size: 50px;
+      margin-right: 50px;
+  }
+  .Services .serv .content h3,p{
+    font-size: 25px;
+    color: rgb(24, 16, 131);
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .Services .serv .content p {
+      font-size: 20px;
+      color: rgb(9, 5, 71);
+      line-height: 20px;
+  }
+  .fff{
+      margin-top: 100px;
+  }
+  /* < !-- end Services --> */
+                    /* < !-- start plan --> */
+                    .plan {
+                        display: flex;
+                        margin: 50px;
+                        justify-items: center;
+                    }
+                    .plan .row .p1{
+                        background-color: rgba(0, 0, 0, 0.2);
+                        
+                    }
+                    .plan .row .p0 {
+                        background-color: rgba(0, 0, 0, 0.1);
+
+                    }
+                    .plan .row p{
+                        font-size: 20px;
+                        color: rgba(0, 0, 0, 0.5);
+                        text-align:  center;
+                        line-height: 50px;
+                        align-items: center;
+                        
+
+
+                    }
+                    .plan .row button{
+                        margin-top: 50px;
+                        margin-bottom: 150px;
+                        border-radius: 50px;
+                    }
+                    /* < !-- end plan --> */
+                            /* < !-- start footer --> */
+                            .btn-default{
+                                border-color: transparent;
+
+                            }
+                            .footer{
+                                direction: ltr;
+                                margin-left: 10px;
+                            }
+                            .footer .media-list ul {
+                                  display: flex;
+                                  list-style-type: none;
+                                  
+                            }
+                            .footer .media-list ul li{
+                            
+                                  margin-right: 10px;
+                                margin-left: 10px;
+
+                            }
+                            .footer .col-lg-3 p{
+                                color: #000;
+                                font-size: 15px !important;
+                            }
+                          /* < !-- end footer --> */
+
+
+
+
